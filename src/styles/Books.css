@@ -1,0 +1,34 @@
+.footer {
+    width: 100%; /* Занимает всю ширину */
+    margin: 0; /* Убирает внешние отступы */
+    padding: 0; /* Убирает внутренние отступы */
+  }
+
+  .fooot {
+    width: 100%;
+    height: 60vh; /* Высота равна высоте экрана */
+    object-fit: cover; /* Обрезает изображение, чтобы оно заполнило контейнер */
+  }
+
+  .featured{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .bestsellers{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .top-rated{
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .slick-prev,
+.slick-next {
+  color: black; /* Изменяем цвет стрелок */
+  z-index: 1; /* Убедитесь, что стрелки видны */
+}
+  
+  

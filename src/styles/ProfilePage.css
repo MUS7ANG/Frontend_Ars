@@ -1,0 +1,203 @@
+.profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  @media (min-width: 768px) {
+    .profile-grid {
+      grid-template-columns: 300px 1fr;
+    }
+  }
+  
+  /* Sidebar styles */
+  .profile-sidebar {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  .profile-info {
+    text-align: center;
+  }
+  
+  .avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .avatar {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+  }
+  
+  .username {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .user-email,
+  .join-date {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  /* Navigation styles */
+  .profile-nav {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .nav-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .nav-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .nav-button.active {
+    background-color: #e0f2fe;
+    color: #2563eb;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+  }
+  
+  .content-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  /* Book items styles */
+  .book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  .book-item:hover {
+    background-color: #f9fafb;
+  }
+  
+  .book-title {
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .book-author,
+  .purchase-date {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .book-actions {
+    text-align: right;
+  }
+  
+  .book-price {
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .download-button {
+    color: #2563eb;
+    font-size: 0.875rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .download-button:hover {
+    text-decoration: underline;
+  }
+  
+  .buy-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .buy-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Settings form styles */
+  .settings-form {
+    max-width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+  }
+  
+  .save-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .save-button:hover {
+    background-color: #1d4ed8;
+  }
